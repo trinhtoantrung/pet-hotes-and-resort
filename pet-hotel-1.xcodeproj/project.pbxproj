@@ -7,21 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4801D8611C78DDA80079737F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4801D8601C78DDA80079737F /* Main.storyboard */; };
 		48A3F3851C78C42E0056286A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A3F3841C78C42E0056286A /* AppDelegate.swift */; };
 		48A3F3871C78C42E0056286A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A3F3861C78C42E0056286A /* ViewController.swift */; };
-		48A3F38A1C78C42E0056286A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48A3F3881C78C42E0056286A /* Main.storyboard */; };
 		48A3F38C1C78C42E0056286A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48A3F38B1C78C42E0056286A /* Assets.xcassets */; };
 		48A3F38F1C78C42E0056286A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48A3F38D1C78C42E0056286A /* LaunchScreen.storyboard */; };
+		48A3F3991C78D8D60056286A /* LoginTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A3F3981C78D8D60056286A /* LoginTableTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4801D8601C78DDA80079737F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		48A3F3811C78C42E0056286A /* pet-hotel-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pet-hotel-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48A3F3841C78C42E0056286A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48A3F3861C78C42E0056286A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		48A3F3891C78C42E0056286A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		48A3F38B1C78C42E0056286A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48A3F38E1C78C42E0056286A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48A3F3901C78C42E0056286A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48A3F3981C78D8D60056286A /* LoginTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTableTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +58,11 @@
 			children = (
 				48A3F3841C78C42E0056286A /* AppDelegate.swift */,
 				48A3F3861C78C42E0056286A /* ViewController.swift */,
-				48A3F3881C78C42E0056286A /* Main.storyboard */,
+				4801D8601C78DDA80079737F /* Main.storyboard */,
 				48A3F38B1C78C42E0056286A /* Assets.xcassets */,
 				48A3F38D1C78C42E0056286A /* LaunchScreen.storyboard */,
 				48A3F3901C78C42E0056286A /* Info.plist */,
+				48A3F3981C78D8D60056286A /* LoginTableTableViewController.swift */,
 			);
 			path = "pet-hotel-1";
 			sourceTree = "<group>";
@@ -122,9 +125,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4801D8611C78DDA80079737F /* Main.storyboard in Resources */,
 				48A3F38F1C78C42E0056286A /* LaunchScreen.storyboard in Resources */,
 				48A3F38C1C78C42E0056286A /* Assets.xcassets in Resources */,
-				48A3F38A1C78C42E0056286A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48A3F3871C78C42E0056286A /* ViewController.swift in Sources */,
+				48A3F3991C78D8D60056286A /* LoginTableTableViewController.swift in Sources */,
 				48A3F3851C78C42E0056286A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +147,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		48A3F3881C78C42E0056286A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				48A3F3891C78C42E0056286A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		48A3F38D1C78C42E0056286A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +280,7 @@
 				48A3F3951C78C42E0056286A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
